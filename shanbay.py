@@ -15,7 +15,8 @@ class shanbay:
         self.executable_path = 'the_path_of_geckodriver_file'
         self.my_driver = None
         self.url = 'https://www.shanbay.com/wordbook/86569/'
-        self.file_path = 'shanbay.txt'
+        # Generate csv type data. Maybe someone could import result into Anki...
+        self.file_path = 'shanbay.csv'
         self.run_firefox()
         self.get()
 
